@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## How to start
+CRA Typescript template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+yarn create react-app . --template typescript
+```
 
-## Available Scripts
+Eslint+ Prettier
 
-In the project directory, you can run:
+```
+npm i -D eslint prettier
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
+npm i -D eslint-config-airbnb
+npm i -D eslint-config-prettier eslint-plugin-prettier
+npm i -D eslint-plugin-react eslint-plugin-react-hooks
+npm i -D eslint-plugin-jsx-a11y eslint-plugin-import
+```
+- eslint : 코드의 문법 검사를 하며, rules속성에 prettier를 추가하여 동시에 사용할 수 있다.
+- prettier : 코드의 스타일을 잡아주는 포맷팅 기능을 한다.
+- @typescript-eslint/eslint-plugin : 타입스크립트 관련 코드규칙을 설정하는 플러그인이다.
+- @typescript-eslint/parser : 타입슼립트를 파싱하기 위해 사용한다.
+- eslint-config-airbnb : airbnb 코딩규칙을 사용한다.(리액트 코딩규칙 포함)
+- eslint-config-prettier : prettier와 충돌을 일으키는 ESLint 규칙들을 비활성화 시키는 config이다.
+- eslint-plugin-prettier : Prettier에서 인식하는 코드상의 포맷 오류를 ESLint 오류로 출력한다.
+- eslint-plugin-react : React에 관한 린트설정을 지원해준다.
+- eslint-plugin-react-hooks : React Hooks의 규칙을 강제하도록 하는 플러그인이다.
+- eslint-plugin-jsx-a11y : JSX 내의 접근성 문제에 대해 즉각적인 AST 린팅 피드백을 제공한다.
+- eslint-plugin-import : ES2015+의 import/export 구문을 지원하도록 한다.
 
-### `yarn start`
+<br/>
+<br/>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## References
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+본 자료는 아래 강의를 바탕으로 공부한 내용입니다.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 본문 출처: [강의 링크](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1)
+- Eslint설정 참고 출처: [참고 링크](https://velog.io/@kmlee95/React-Typescript-eslint-prettier%EC%84%A4%EC%A0%95)

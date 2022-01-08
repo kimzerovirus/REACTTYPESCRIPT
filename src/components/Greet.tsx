@@ -1,9 +1,16 @@
 import React from 'react';
 
-export function Greet() {
+type GreetProps = {
+	name: string;
+	count: number;
+};
+
+export const Greet = (props: GreetProps) => {
 	return (
 		<div>
-			<h2>Hello World!</h2>
+			<h2>
+				Welcome {props.name} Hello World {props.count}!
+			</h2>
 		</div>
 	);
-}
+};

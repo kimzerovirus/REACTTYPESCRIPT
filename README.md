@@ -29,6 +29,23 @@ npm i -D eslint-plugin-jsx-a11y eslint-plugin-import
 - eslint-plugin-jsx-a11y : JSX 내의 접근성 문제에 대해 즉각적인 AST 린팅 피드백을 제공한다.
 - eslint-plugin-import : ES2015+의 import/export 구문을 지원하도록 한다.
 
+[절대경로 설정](https://create-react-app.dev/docs/importing-a-component/#absolute-imports) tsconfig.json 
+
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
+```
+
+React Router
+
+```
+npm install react-router @types/react-router react-router-dom @types/react-router-dom
+```
+
 <br/>
 <br/>
 <br/>

@@ -54,5 +54,6 @@ npm install react-router @types/react-router react-router-dom @types/react-route
 
 본 자료는 아래 강의를 바탕으로 공부한 내용입니다.
 
-- 본문 출처: [강의 링크](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1)
+- basic: [강의 링크](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1)
+- quiz: [강의 링크](https://www.youtube.com/watch?v=F2JCjVSZlG0)
 - Eslint설정 참고 출처: [참고 링크](https://velog.io/@kmlee95/React-Typescript-eslint-prettier%EC%84%A4%EC%A0%95)

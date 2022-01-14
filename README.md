@@ -46,6 +46,11 @@ React Router
 npm install react-router @types/react-router react-router-dom @types/react-router-dom
 ```
 
+styled-components
+```
+npm i styled-components @types/styled-components
+```
+
 <br/>
 <br/>
 <br/>
@@ -56,4 +61,5 @@ npm install react-router @types/react-router react-router-dom @types/react-route
 
 - basic: [강의 링크](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1)
 - quiz: [강의 링크](https://www.youtube.com/watch?v=F2JCjVSZlG0)
+- crashcourse: [강의 링크](https://www.youtube.com/watch?v=jrKcJxF0lAU)
 - Eslint설정 참고 출처: [참고 링크](https://velog.io/@kmlee95/React-Typescript-eslint-prettier%EC%84%A4%EC%A0%95)

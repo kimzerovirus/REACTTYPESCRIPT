@@ -1,4 +1,4 @@
-How to Start
+## How to Start
 ```
 yarn create react-app project --template redux-typescript
 ```

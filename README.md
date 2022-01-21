@@ -62,4 +62,5 @@ npm i styled-components @types/styled-components
 - basic: [강의 링크](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1)
 - quiz: [강의 링크](https://www.youtube.com/watch?v=F2JCjVSZlG0)
 - crashcourse: [강의 링크](https://www.youtube.com/watch?v=jrKcJxF0lAU)
+- reduxhooks: [강의 링크](https://www.youtube.com/watch?v=9jULHSe41ls)
 - Eslint설정 참고 출처: [참고 링크](https://velog.io/@kmlee95/React-Typescript-eslint-prettier%EC%84%A4%EC%A0%95)

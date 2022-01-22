@@ -4,7 +4,7 @@ import "./App.css";
 import { RootState } from "./app/store";
 import CustomerCard from "./components/CustomerCard";
 import ReservationCard from "./components/ReservationCard";
-import { addReservation } from "./features/reservationSlice";
+import { addReservation, addReservationAsync } from "./features/reservationSlice";
 
 function App() {
   const [reservationNameInput, setReservationNameInput] = useState("");
@@ -20,6 +20,10 @@ function App() {
     dispatch(addReservation(reservationNameInput));
     setReservationNameInput(""); //clear
   };
+
+  const handleAddReservationsAsync = () => {
+    dispatch(addReservationAsync());
+  }
 
   return (
     <div className="App">
@@ -39,6 +43,7 @@ function App() {
               onChange={(e) => setReservationNameInput(e.target.value)}
             />
             <button onClick={handleAddReservations}>Add</button>
+            <button onClick={handleAddReservationsAsync}>Async Add</button>
           </div>
         </div>
         <div className="customer-food-container">

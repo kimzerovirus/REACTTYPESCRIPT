@@ -23,7 +23,7 @@ function CustomerCard({ id, name, foods }: CustomerCardType) {
           ))}
         </div>
         <div className="customer-food-input-container">
-          <input onChange={(e) => setCustomerFoodInput(e.target.value)} />
+          <input value={customerFoodInput} onChange={(e) => setCustomerFoodInput(e.target.value)}/>
           <button
             onClick={() => {
               if (!customerFoodInput) return;
@@ -33,7 +33,7 @@ function CustomerCard({ id, name, foods }: CustomerCardType) {
                   food: customerFoodInput,
                 })
               );
-              setCustomerFoodInput("");
+              setCustomerFoodInput("")
             }}
           >
             add

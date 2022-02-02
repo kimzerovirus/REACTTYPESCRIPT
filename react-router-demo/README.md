@@ -19,6 +19,7 @@ ReactDOM.render(
 
 ### NavLink
 Link와 기능은 같지만 추가로 active클래스를 제공한다.
+NavLink 컴포넌트에 activeStyle과 activeClassName를 속성으로 줄 수 있다.
 ```
 NavBar.js
 <nav>

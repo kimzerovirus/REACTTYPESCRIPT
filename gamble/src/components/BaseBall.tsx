@@ -81,7 +81,7 @@ function BaseBall() {
 				}
 			}
 		} else {
-			alert('실패');
+			alert('실패, 정답:' + answer);
 			setResults({
 				result: [] as sbo[],
 				input: [] as number[],

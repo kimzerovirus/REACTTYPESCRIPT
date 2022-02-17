@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 function WordRelay() {
 	const [word, setWord] = useState('끝말잇기');
@@ -11,10 +11,13 @@ function WordRelay() {
 			setWord(inputVal);
 			setInputVal('');
 		}
+	};
+
+	useEffect(() => {
 		if (inputRef.current) {
 			inputRef.current.focus();
 		}
-	};
+	}, []);
 
 	return (
 		<div className="mt-5 container">

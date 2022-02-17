@@ -15,6 +15,16 @@ function Nav() {
 						끝말잇기
 					</NavLink>
 				</li>
+				<li className="nav-item">
+					<NavLink to="/baseball" className="nav-link text-light">
+						야구게임
+					</NavLink>
+				</li>
+				<li className="nav-item">
+					<NavLink to="/rockpaperscissors" className="nav-link text-light">
+						가위바위보
+					</NavLink>
+				</li>
 			</ul>
 		</nav>
 	);
